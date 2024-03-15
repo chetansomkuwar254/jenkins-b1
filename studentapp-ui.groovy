@@ -9,17 +9,17 @@ pipeline {
         }
                 stage('Build') {
             steps {
-                echo 'Hello World'
+                echo 'Here we are deploying the code'
             }
         }
                 stage('Test') {
             steps {
-                echo 'Hello World'
+                echo 'Testing the application'
             }
         }
                 stage('Deploy') {
             steps {
-                echo 'Hello World'
+                echo 'Depl'
             }
         }
     }
