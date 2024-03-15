@@ -124,7 +124,8 @@ due to an API incompatibility: org.codehaus.plexus.component.repository.exceptio
 
 ==> .mojo is not supported by Java-17, so we need to install java-11 or below.
 
-java --version
-
+# java --version
+# sudo apt update
+# 
 
 
