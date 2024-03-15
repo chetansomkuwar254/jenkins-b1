@@ -128,6 +128,6 @@ due to an API incompatibility: org.codehaus.plexus.component.repository.exceptio
 # sudo apt update
 # sudo apt install openjdk-11-jdk
 
-To check diffrent version of java
+To check diffrent version of java or 
 
 
