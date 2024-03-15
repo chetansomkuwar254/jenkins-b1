@@ -126,6 +126,8 @@ due to an API incompatibility: org.codehaus.plexus.component.repository.exceptio
 
 # java --version
 # sudo apt update
-# 
+# sudo apt install openjdk-11-jdk
+
+
 
 
