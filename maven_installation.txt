@@ -122,6 +122,6 @@ on project studentapp: Execution default-war of goal org.apache.maven.plugins:ma
 failed: Unable to load the mojo 'war' in the plugin 'org.apache.maven.plugins:maven-war-plugin:2.6' 
 due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: null
 
-==> .mojo is not supported by Java-17
+==> .mojo is not supported by Java-17, so we need to install 
 
 
