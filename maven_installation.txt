@@ -117,6 +117,8 @@ Pipeline syntax generator:
 ##################################################################################################################
 
 Error:
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-war-plugin:2.6:war (default-war) on project studentapp: Execution default-war of goal org.apache.maven.plugins:maven-war-plugin:2.6:war failed: Unable to load the mojo 'war' in the plugin 'org.apache.maven.plugins:maven-war-plugin:2.6' due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: null
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-war-plugin:2.6:war (default-war)
+on project studentapp: Execution default-war of goal org.apache.maven.plugins:maven-war-plugin:2.6:war
+failed: Unable to load the mojo 'war' in the plugin 'org.apache.maven.plugins:maven-war-plugin:2.6' due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: null
 
 
