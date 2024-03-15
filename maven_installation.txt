@@ -17,7 +17,7 @@ Now add the mvn command in enviorment
 =======================================================================================================
 
 Maven command Syntax : mvn goal argument
-                           sub-command  extra parameter
+                       aws sub-command  extra parameter
 =======================================================================================================
 
 ==> Create a Maven project
