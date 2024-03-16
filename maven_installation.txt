@@ -4,8 +4,8 @@
 
 Now, refer maven in 5 minute of installation
 # wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
-# tar -xzf apache-maven-3.9.6-bin
-# mv apache-maven /opt/apache-maven
+# sudo tar -xvzf apache-maven-3.9.6-bin.tar.gz
+# sudo mv apache-maven-3.9.6 /opt/
 # cd /opt/apache-maven/bin/mvn
 
 Now add the mvn command in enviorment
@@ -29,7 +29,7 @@ Syntax: mvn archetype:generate
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 
 # mvn archetype:generate -DgroupId=com.studentapp-ui.app -DartifactId=studentapp-ui-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
-# cd jarvis-app
+# cd studentapp-ui-app
 # tree
 
 Note: Developer decide the build tool, here directory structre is created for java based application from here we started the Applicaiton development lifecycle
