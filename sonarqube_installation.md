@@ -98,7 +98,11 @@ cd /studentapp.ui
 mvn clean package
 # run mvn sonar:sonar <commands>
 ```
-7. Now this project has 
+7. Now this project made in sonarqube applicaiton, and it passed from quality-gate criteria.
+8. Tester and developer will create and manage quality gate.
 
-
+## Add the maven scanner commands in pipeline
+```shell
+run mvn sonar:sonar <commands>
+```
 
