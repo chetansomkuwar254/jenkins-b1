@@ -12,7 +12,7 @@ yum install mysql-server -y
 systemctl start mysqld
 systemctl enable mysqld
 grep 'temporary password' /var/log/mysqld.log
-mysql_secure_installation -p <password>  -------------------------------> Temperory password
+mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
 mysql_secure_installation                -------------------------------> Set New Password
 ```
 # Now, our Database server is ready #
@@ -81,5 +81,24 @@ Public IP:9000
 ```shell
 username = admin
 ```
+## Understand the Sonarqube console
+
+## Setup the project in sonarqube
+1. Project Name: studentapp-ui
+2. Genrate the token: save to token, it's only one time visible.
+3. Set-up the required java enviorment
+4. Setup the build tool (maven)
+then we got the scanner maven commands, to run on jenkins server.
+
+5. First of all clone the studentapp-ui repository in jenkins server
+6. Run te 4th no's all maven commands in maven project's home directory, where pom.xml file is present.
+```shell
+git clone https://github.com/chetansomkuwar254/studentapp.ui.git
+cd /studentapp.ui
+mvn clean package
+# run mvn sonar:sonar <commands>
+```
+7. Now this project has 
+
 
 
