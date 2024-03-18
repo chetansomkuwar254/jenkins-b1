@@ -88,8 +88,13 @@ username = admin
 2. Genrate the token: save to token, it's only one time visible.
 3. Set-up the required java enviorment
 4. Setup the build tool (maven)
-then we got the scanner maven commands, to run on jenkins server.
-
+    then we got the scanner maven commands, to run on jenkins server.
+```shell
+    mvn sonar:sonar \
+  -Dsonar.projectKey=studentapp-ui \
+  -Dsonar.host.url=http://54.221.44.130:9000 \
+  -Dsonar.login=f316d47655ec5d539cb484f38aa1f1666c491815
+```
 5. First of all clone the studentapp-ui repository in jenkins server
 6. Run te 4th no's all maven commands in maven project's home directory, where pom.xml file is present.
 ```shell
