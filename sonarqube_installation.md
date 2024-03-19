@@ -110,4 +110,49 @@ mvn clean package
 ```shell
 run mvn sonar:sonar <commands>
 ```
+----------------------------------------------------------------------------------------------------
+## Another way to integrate sonarqube with jenkins
+Plugins:
+1. Sonarqube scanner
+2. Sonarqube qulatity gate
+
+# Pass the credentials in Jenkins
+Dashboard > Manage Jenkins > Credentials > System > Global Credentials
+    - Secret: <token>
+    - ID: sonar-token
+Meanwhile add Enviormental variable of sonarqube in Jenkins.
+    Name: Sonar-server
+    Secret: <token>
+
+# Create Pipeline script for sonarqube
+    - Pipeline syntax
+    - Sample step: withSonarQubeEnv: Prepare sonarqube Enviorment
+    - Add token
+    - Generate the pipeline script
+----------------------------------------------------------------------------------------------------
+# If we want to get condition for quality-gate for our application code. For that we need to create a Quality-gate rule in sonarqube-server application.
+Note: If our application code has gate failed then, our application is not able to deploy for that we set quality gate.
+    # waitforquality gate
+
+# Wait for quality gate syntax (timeout-time)
+# Scenarion: If my quality-gate has not passed then my pipeline is in paused condition, at that time my quality-gate server is down for 2 days, till my pipeline has stucked for 2 days fro all remaining stages for that we add the timeout sesion in quality-gate
+
+
+# we create script through pipeline syntax generator
+    - Pipeline syntax
+    - Sample step: waitForQualityGate wait for sonarqube analysis to be completed and return quality gate status
+    - ServerAuthentication toke: sonar-token
+    - Generate the pipeline sccript: <script> 
+```shell
+# If my quality gate is failed so,
+waitForQualityGate abortPipeline: true;
+```
+----------------------------------------------------------------------------------------------------
+
+# changed the quality-gate type in sonarqube applicaiton
+    - Daufalut
+    - Customized one
+
+----------------------------------------------------------------------------------------------------
+
 
