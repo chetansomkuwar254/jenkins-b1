@@ -130,7 +130,7 @@ Meanwhile add Enviormental variable of sonarqube in Jenkins.
     - Add token
     - Generate the pipeline script
 ----------------------------------------------------------------------------------------------------
-# If we want to get condition for quality-gate for our application code. For that we need to create a Quality-gate rule in sonarqube-server application.
+# If we want to apply condition on quality-gate for our application code. For that we need to create a Quality-gate rule in sonarqube-server application.
 Note: If our application code has gate failed then, our application is not able to deploy for that we set quality gate.
     # waitforquality gate
 
