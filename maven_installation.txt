@@ -20,8 +20,8 @@ Maven command Syntax : mvn goal argument
                        aws sub-command  extra parameter
 =======================================================================================================
 
-==> Create a Maven project
-------------------------------
+==> Create a Maven project for Example purpose
+-----------------------------------------------
 
 Syntax: mvn archetype:generate
         command (libreary):(The goal need to download from liabrary)
@@ -38,11 +38,11 @@ Note: Developer decide the build tool, here directory structre is created for ja
 2. Then we write the application/code
 eg. we can check studentapp also
 
-## our-project has created
+## our-project has created Example completed
 ==============================================================================================================================================================================================================
 
-Maven Lifecycle:
-----------------
+Maven Lifecycle for our project:
+-----------------------------
 Basically it a process collection of maven phases
 
 Mven lifecycle Type:
@@ -75,7 +75,7 @@ Site Phase:
 ==============================================================================================================================================================================================================
 
 Example on staging:
-1. Get clone of studentapp-ui repository --> install maven
+1. Get clone of studentapp-ui Application repository from developer --> install maven
 # cd studentapp-ui
 # mvn package ( Build the package)
 # ls /studentapp-ui/target/<new-artifact-created>.war
