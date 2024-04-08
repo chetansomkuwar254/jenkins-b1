@@ -12,8 +12,8 @@ yum install mysql-server -y
 systemctl start mysqld
 systemctl enable mysqld
 grep 'temporary password' /var/log/mysqld.log
-mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
-mysql_secure_installation                -------------------------------> Set New Password
+#mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
+mysql_secure_installation <log_based_password>               -------------------------------> Set New Password
 ```
 # Now, our Database server is ready #
 

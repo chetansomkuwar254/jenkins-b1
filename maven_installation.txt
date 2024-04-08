@@ -131,7 +131,7 @@ due to an API incompatibility: org.codehaus.plexus.component.repository.exceptio
 To check diffrent version of java or which Java version is curretnly in used. To ensure that use below command.
 # sudo update-alternatives --config java
 # now to select the exact Java 11 version and Enter.
-# Java --version   ... It should be java 11 running
+# java --version   ... It should be java 11 running
 Now, Build it again.
 ##################################################################################################################
 
