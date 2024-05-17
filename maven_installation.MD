@@ -57,7 +57,12 @@ Site Phase:
 
 ============================================================================================================================
 
-
+Pom.xml
+----------
+1. While building the code, if we required any dependency it will collect it from the pom.xml file.
+2. pom.xml file contains the all required information, libreary, plugging, dependancy,
+3. Developer wrote the pom.xml
+4. we can also add maven dependancy here as per requirment from maven repository.
 
 # Maven Installation and Setup Enviorment 
 
