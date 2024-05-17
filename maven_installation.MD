@@ -1,5 +1,5 @@
-# Maven command Syntax : mvn goal <argument>
-                       aws sub-command  extra parameter
+## Maven command Syntax : mvn goal <argument>
+                       ## aws sub-command  extra parameter
 =======================================================================================================
 
 ==> Create a Maven project for Example purpose
