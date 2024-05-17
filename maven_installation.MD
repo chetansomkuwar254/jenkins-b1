@@ -7,7 +7,7 @@ Now, refer maven in 5 minute of installation
  wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
  sudo tar -xvzf apache-maven-3.9.6-bin.tar.gz
  sudo mv apache-maven-3.9.6 /opt/
- cd /opt/apache-maven/bin/
+ cd /opt/apache-maven-3.9.6/bin/
 ```
 
 Now add the mvn command in enviorment
